@@ -1,0 +1,30 @@
+#screen-sobre{
+    background-color: rgb(18, 13, 20);
+    scroll-margin-top: -10px;
+}
+.box-sobre{
+    color:rgb(255, 255, 255);
+    display: flex;
+    margin: 0 0 0 12%;
+    width: 80%;
+    align-content: space-between;
+    padding: 6rem 0 6rem 0;
+    gap: 10%;
+    
+}
+.video{
+    box-shadow: 0px 0px 8px 1px rgba(205, 74, 83, 0.701);
+    width: 480px;
+    height: 100%;
+}
+.box-sobre p {
+    
+    margin-top: 1rem;
+    align-items: center;
+    word-spacing: 2px;
+    font-size: 22px;
+    text-transform: uppercase;
+    overflow-wrap: break-word;
+    font-family: 'Roboto', sans-serif;
+    line-height: 28px;
+}
