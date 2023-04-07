@@ -147,12 +147,12 @@ main {
   background-position-y: -1px;
   background-repeat: no-repeat;
 }
-footer {
+.rodape-home {
   margin:9rem 0 0 12%;
   max-width: 500px;
 }
 
-footer ul li {
+.rodape-home ul li {
   background: url(../images/logotipo-do-instagram.png);
   background-repeat: no-repeat;
   width: 28px;
@@ -162,7 +162,7 @@ footer ul li {
   cursor: pointer;
 }
 
-footer ul li:nth-child(2) {
+.rodape-home ul li:nth-child(2) {
   background: url(../images/twitter.png);
   background-repeat: no-repeat;
   width: 29px;
@@ -172,7 +172,7 @@ footer ul li:nth-child(2) {
   cursor: pointer;
   margin-left: 2rem;
 }
-footer ul li:nth-child(3) {
+.rodape-home ul li:nth-child(3) {
   background: url(../images/linkedin.png);
   background-repeat: no-repeat;
   width: 34px;
