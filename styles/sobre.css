@@ -27,11 +27,5 @@
     overflow-wrap: break-word;
     font-family: 'Roboto', sans-serif;
     line-height: 28px;
-    animation:animacaotexto 2s  linear;
-}
-
-@keyframes animacaotexto{
-    to{
-        transform: rotate(360deg);
-    }
+    animation-delay:.2s;
 }
