@@ -1,7 +1,7 @@
 const textoAnimado = document.querySelectorAll('#texto-sobre');
 
 window.addEventListener('scroll', function(){
-  console.log(window.scrollY)
+  // console.log(window.scrollY)
   if(window.scrollY > 100){
     textoAnimado[0].classList.add("animate__animated", "animate__zoomIn");
     
