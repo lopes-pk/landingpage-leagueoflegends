@@ -23,7 +23,9 @@ html {
   margin-left: 12%;
   height: 100%;
 }
-
+.div-menu-hamburguer{
+  display: none;
+}
 .navigator {
   display: flex;
   align-items: end;
@@ -194,7 +196,6 @@ html {
   background: url(../images/logotipo-do-instagram.png);
   background-size: contain;
   background-repeat: no-repeat;
-  
   width: 30px;
   height: 30px;
 }
@@ -228,13 +229,17 @@ html {
 @media screen and (max-width:1110px) {
   .nav-itens-container{
     margin-left: 8vw;
+    
   }
+  
   .img{
-  width: 55%;
-  height: 300px;
+    width: 55%;
+    height: 300px;
   }
 }
+
 @media screen and (max-width:790px) {
+  
   .img{
     display:none;
     }
@@ -265,7 +270,7 @@ html {
   }
   .rodape {
     margin-top: 6rem;
-    margin-left:1rem;
+    margin-left:.65rem;
   }
   
 }
