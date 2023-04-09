@@ -10,10 +10,10 @@
     padding: 6rem 0 6rem 0;
     gap: 10%;
     
+    
 }
 .video{
     box-shadow: 0px 0px 8px 1px rgba(205, 74, 83, 0.701);
-    width: 480px;
     height: 270px;
     
 }
@@ -47,4 +47,26 @@
         width: 490px;
     }
     
+}
+@media screen and (max-width:1175px){
+    .video{
+        height: 247.5px;
+    }
+    .video video{
+    width: 440px;
+}
+.box-sobre p{
+    width: 440px;
+}
+}
+@media screen and (max-width:480px) {
+    .video{
+        height: 191.25px;
+    }
+    .video video{
+        width: 340px;
+    }
+    .box-sobre p{
+        width: 340px;
+    }
 }
